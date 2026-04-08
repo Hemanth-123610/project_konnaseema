@@ -15,7 +15,7 @@ const templeData = {
         text: "Appanapalli Bala Balaji Temple is a popular devotional destination in Konaseema. Surrounded by the natural beauty of coconut groves and peaceful village surroundings, this temple attracts devotees who come to worship Lord Balaji. The place is known for its calm environment and spiritual charm."
     },
     antarvedi: {
-        title: "Antarvedi",
+        title: "Antarvedi Beach",
         image: "assets/images/antarvedi.jpg",
         text: "Antarvedi is a special place where the Godavari River meets the Bay of Bengal. It is known for both spiritual and scenic importance. Along with the famous Lakshmi Narasimha Swamy Temple, visitors also enjoy the beach, river views and serene atmosphere. It is one of the most beautiful places in the Konaseema region."
     }
