@@ -4,269 +4,258 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Konaseema | Temples, Food, Stay & Weekend Trips</title>
-    <meta name="description" content="Explore Konaseema tourism website for temples, authentic food, scenic trips, stays, and weekend travel planning.">
+    <meta name="description" content="Explore Konaseema tourism website for temples, authentic food, stays and weekend trips.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container nav-wrap">
-            <div class="brand">
-                <span class="brand-badge">EK</span>
-                <div>
-                    <h1>Explore Konaseema</h1>
-                    <p>Temples, Tastes & Stay</p>
-                </div>
+
+<header class="site-header">
+    <div class="container nav-wrap">
+        <div class="brand">
+            <div class="brand-logo">EK</div>
+            <div>
+                <h2>Explore Konaseema</h2>
+                <p>Temples • Food • Stays</p>
             </div>
-            <nav class="main-nav">
-                <a href="#about">About</a>
-                <a href="#places">Places</a>
-                <a href="#food">Food</a>
-                <a href="#stay">Rooms</a>
-                <a href="#plan">Plan Trip</a>
-                <a href="#contact" class="nav-cta">Book Now</a>
-            </nav>
-            <button class="menu-btn" id="menuBtn">☰</button>
         </div>
-    </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-overlay"></div>
-            <div class="container hero-grid">
-                <div class="hero-copy">
-                    <span class="tag">Weekend Tourism Experience</span>
-                    <h2>Travel Through the Heart of Konaseema</h2>
-                    <p>Plan your trip with temple visits, signature Konaseema food, scenic routes, and comfortable stay options — all in one beautiful website.</p>
-                    <div class="hero-actions">
-                        <a href="#plan" class="btn btn-primary">Explore Packages</a>
-                        <a href="#contact" class="btn btn-secondary">Contact on WhatsApp</a>
-                    </div>
-                    <div class="hero-points">
-                        <span>Scenic villages</span>
-                        <span>Temple circuits</span>
-                        <span>Traditional food</span>
-                        <span>Room booking help</span>
-                    </div>
-                </div>
-                <div class="hero-card glass-card">
-                    <img src="assets/images/hero-poster.jpeg" alt="Konaseema tourism poster">
-                </div>
-            </div>
-        </section>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#places">Places</a>
+            <a href="#food">Food</a>
+            <a href="#stays">Stays</a>
+            <a href="#plan">Packages</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-        <section class="section" id="about">
-            <div class="container two-col intro-section">
-                <div>
-                    <span class="section-label">Why Explore Konaseema</span>
-                    <h3>A peaceful destination for families, friends and weekend travelers</h3>
-                    <p>Konaseema is known for river views, coconut groves, famous temples, local sweets, village-style meals and relaxing stays. This website helps your friend present all of it in a clean and attractive tourism platform.</p>
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <strong>10+</strong>
-                            <span>Temple spots</span>
-                        </div>
-                        <div class="stat-card">
-                            <strong>20+</strong>
-                            <span>Food specials</span>
-                        </div>
-                        <div class="stat-card">
-                            <strong>Stay</strong>
-                            <span>Rooms & cottages</span>
-                        </div>
-                        <div class="stat-card">
-                            <strong>2 Days</strong>
-                            <span>Quick getaway plan</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="info-panel">
-                    <div class="mini-card">
-                        <h4>Included</h4>
-                        <ul>
-                            <li>Tourist places overview</li>
-                            <li>Food specials showcase</li>
-                            <li>Rooms & stay section</li>
-                            <li>Call / WhatsApp booking CTA</li>
-                        </ul>
-                    </div>
-                    <div class="mini-card accent">
-                        <h4>Best for</h4>
-                        <p>Friends trips, family weekends, festive travel, food lovers, spiritual trips and cultural tourism promotions.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <a class="call-btn" href="tel:6281621218">Call: 6281621218</a>
+    </div>
+</header>
 
-        <section class="section scenic-section" id="places">
-            <div class="container">
-                <div class="section-head">
-                    <div>
-                        <span class="section-label">Top Attractions</span>
-                        <h3>Popular places to visit in Konaseema</h3>
-                    </div>
-                    <p>Use this section to show the best spiritual and scenic experiences for travelers.</p>
-                </div>
-                <div class="cards-grid">
-                    <article class="place-card">
-                        <h4>Ainavilli Siddhi Vinayaka Temple</h4>
-                        <p>One of the most visited temples in Konaseema, known for its peaceful atmosphere and devotional importance.</p>
-                    </article>
-                    <article class="place-card">
-                        <h4>Appanapalli Bala Balaji Temple</h4>
-                        <p>A famous pilgrimage spot that attracts families and devotees throughout the year.</p>
-                    </article>
-                    <article class="place-card">
-                        <h4>Draksharamam</h4>
-                        <p>A historic temple destination that adds a grand spiritual touch to the travel circuit.</p>
-                    </article>
-                    <article class="place-card">
-                        <h4>Muramulla Temple</h4>
-                        <p>Popular among devotees and ideal for inclusion in a one-day temple route.</p>
-                    </article>
-                    <article class="place-card">
-                        <h4>Dindi Backwaters</h4>
-                        <p>Perfect for scenic views, boating and relaxing with friends or family.</p>
-                    </article>
-                    <article class="place-card">
-                        <h4>Coconut Belt Village Drives</h4>
-                        <p>Drive through lush green roads, canals and village landscapes unique to Konaseema.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
+<section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <img src="assets/images/hero.jpg" alt="Konaseema Hero" class="hero-bg">
 
-        <section class="section gallery-food" id="food">
-            <div class="container gallery-layout">
-                <div class="gallery-main">
-                    <span class="section-label">Authentic Food</span>
-                    <h3>Traditional Konaseema taste experience</h3>
-                    <p>Showcase sweets, meals, snacks, biryanis, milk drinks and festive specials that make the trip memorable.</p>
-                    <img class="feature-image" src="assets/images/food-platter.jpeg" alt="Traditional Konaseema food platter">
-                </div>
-                <div class="food-list-card">
-                    <h4>Popular items</h4>
-                    <div class="chips">
-                        <span>Pootarekulu</span>
-                        <span>Bobbatlu</span>
-                        <span>Kaja</span>
-                        <span>Kajjikaya</span>
-                        <span>Kova Puri</span>
-                        <span>Avada</span>
-                        <span>Butta Biryani</span>
-                        <span>Gutti Vankaya</span>
-                        <span>Tomato Pappu</span>
-                        <span>Badam Milk</span>
-                        <span>Rose Milk</span>
-                        <span>Chakra Pongali</span>
-                    </div>
-                    <div class="food-note">
-                        <strong>Idea:</strong>
-                        <p>Add restaurant names or home-food partners here later for real bookings.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="container hero-content">
+        <span class="tag">Welcome to Konaseema</span>
+        <h1>KONASEEMA</h1>
+        <p class="subhead">Temples • Traditions • Tastes</p>
+        <p class="hero-text">
+            Experience scenic backwaters, divine temples, authentic Konaseema food and peaceful stays with your friends and family.
+        </p>
 
-        <section class="section poster-showcase">
-            <div class="container showcase-grid">
-                <div class="showcase-copy">
-                    <span class="section-label">Branding Ready</span>
-                    <h3>Tourism posters, campaigns and package promotions</h3>
-                    <p>This design style is built to look premium and visually attractive. You can use it for website hero sections, social media promotions, brochures and booking pages.</p>
-                    <a href="#contact" class="btn btn-primary">Start Promotions</a>
-                </div>
-                <div class="showcase-images">
-                    <img src="assets/images/poster-collection.jpeg" alt="Konaseema poster collection">
-                    <img src="assets/images/tour-poster.jpeg" alt="Konaseema tour poster">
-                </div>
-            </div>
-        </section>
-
-        <section class="section stay-section" id="stay">
-            <div class="container">
-                <div class="section-head">
-                    <div>
-                        <span class="section-label">Stay Options</span>
-                        <h3>Rooms, cottages and group stay support</h3>
-                    </div>
-                    <p>You can later connect real lodge details, pricing, maps and direct call booking here.</p>
-                </div>
-                <div class="stay-grid">
-                    <div class="stay-card">
-                        <h4>Budget Rooms</h4>
-                        <p>For solo travelers and small groups looking for affordable accommodation.</p>
-                        <span>Starting from ₹999</span>
-                    </div>
-                    <div class="stay-card">
-                        <h4>Family Stay</h4>
-                        <p>Comfortable rooms for family trips with nearby temple access and food facilities.</p>
-                        <span>Starting from ₹1999</span>
-                    </div>
-                    <div class="stay-card">
-                        <h4>Riverside Cottage</h4>
-                        <p>Premium experience for couples and friend groups who want scenic relaxation.</p>
-                        <span>Starting from ₹3499</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section plan-section" id="plan">
-            <div class="container">
-                <span class="section-label">Tour Plan</span>
-                <h3>Simple 2-day trip suggestion</h3>
-                <div class="plan-grid">
-                    <div class="plan-card">
-                        <span class="day-badge">Day 1</span>
-                        <h4>Temple & Scenic Route</h4>
-                        <ul>
-                            <li>Morning temple darshan</li>
-                            <li>Village breakfast stop</li>
-                            <li>Backwater drive or boating</li>
-                            <li>Evening beach / sunset point</li>
-                        </ul>
-                    </div>
-                    <div class="plan-card">
-                        <span class="day-badge">Day 2</span>
-                        <h4>Food & Local Experience</h4>
-                        <ul>
-                            <li>Traditional lunch specials</li>
-                            <li>Sweets and snacks trail</li>
-                            <li>Photo spots and shopping</li>
-                            <li>Return trip with memories</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section contact-section" id="contact">
-            <div class="container contact-box">
-                <div>
-                    <span class="section-label">Book Your Trip</span>
-                    <h3>Ready to launch this tourism brand?</h3>
-                    <p>This demo website is ready for deployment. Replace phone number, pricing, room names and exact place details as needed.</p>
-                </div>
-                <div class="contact-card">
-                    <h4>Contact</h4>
-                    <a href="tel:+916281621218">6281621218</a>
-                    <a href="https://wa.me/916281621218" target="_blank" rel="noopener">WhatsApp Booking</a>
-                    <button class="btn btn-primary full-width" id="scrollTopBtn">Back to Top</button>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-wrap">
-            <p>© 2026 Explore Konaseema. Crafted for tourism promotions.</p>
-            <p>Temples • Food • Rooms • Weekend Getaways</p>
+        <div class="hero-actions">
+            <a href="#places" class="btn primary">Explore Places</a>
+            <a href="#plan" class="btn secondary">View Packages</a>
         </div>
-    </footer>
 
-    <script src="assets/js/app.js"></script>
+        <div class="search-strip">
+            <div class="search-item">
+                <span class="search-label">Pick a Date</span>
+                <strong>Weekend Trip</strong>
+            </div>
+            <div class="search-item">
+                <span class="search-label">Travellers</span>
+                <strong>2 - 10 People</strong>
+            </div>
+            <div class="search-item">
+                <span class="search-label">Interest</span>
+                <strong>Temples & Food</strong>
+            </div>
+            <a href="#contact" class="search-btn">Search Trip</a>
+        </div>
+    </div>
+</section>
+
+<section class="highlights">
+    <div class="container highlight-grid">
+        <div class="highlight-card">🏛 Spiritual Temples</div>
+        <div class="highlight-card">🍲 Authentic Food</div>
+        <div class="highlight-card">🌴 Backwater Beauty</div>
+        <div class="highlight-card">🛏 Comfortable Stays</div>
+    </div>
+</section>
+
+<section class="section places-section" id="places">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="mini-tag">Explore</span>
+                <h2>Top Places to Visit</h2>
+                <p>Click any temple to view history in popup.</p>
+            </div>
+            <a href="#contact" class="outline-btn">Plan My Trip</a>
+        </div>
+
+        <div class="card-grid">
+            <div class="place-card" onclick="openTemple('ainavilli')">
+                <img src="assets/images/ainavilli.jpg" alt="Ainavilli">
+                <div class="card-body">
+                    <h3>Ainavilli Siddhi Vinayaka</h3>
+                    <p>Famous temple dedicated to Lord Ganesha.</p>
+                </div>
+            </div>
+
+            <div class="place-card" onclick="openTemple('draksharamam')">
+                <img src="assets/images/draksharamam.jpg" alt="Draksharamam">
+                <div class="card-body">
+                    <h3>Draksharamam Temple</h3>
+                    <p>One of the Pancharama Kshetras of Lord Shiva.</p>
+                </div>
+            </div>
+
+            <div class="place-card" onclick="openTemple('appanapalli')">
+                <img src="assets/images/appanapalli.jpg" alt="Appanapalli">
+                <div class="card-body">
+                    <h3>Appanapalli Bala Balaji</h3>
+                    <p>A peaceful spiritual destination in Konaseema.</p>
+                </div>
+            </div>
+
+            <div class="place-card" onclick="openTemple('antarvedi')">
+                <img src="assets/images/antarvedi.jpg" alt="Antarvedi">
+                <div class="card-body">
+                    <h3>Antarvedi</h3>
+                    <p>Where Godavari meets the Bay of Bengal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section food-section" id="food">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="mini-tag">Taste of Konaseema</span>
+                <h2>Delicious Local Food</h2>
+                <p>Traditional flavours that make the trip unforgettable.</p>
+            </div>
+        </div>
+
+        <div class="food-grid">
+            <div class="food-card">
+                <img src="assets/images/food1.jpg" alt="Pootharekulu">
+                <div class="food-info">
+                    <h3>Pootharekulu</h3>
+                    <p>Sweet specialty loved across Andhra.</p>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="assets/images/food2.jpg" alt="Konaseema Specials">
+                <div class="food-info">
+                    <h3>Konaseema Specials</h3>
+                    <p>Kova, biryani, kaja, village-style meals and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section stays-section" id="stays">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="mini-tag">Stay & Relax</span>
+                <h2>Comfortable Stays</h2>
+                <p>Best rooms, homestays and family-friendly stays.</p>
+            </div>
+        </div>
+
+        <div class="stay-grid">
+            <div class="stay-card">
+                <img src="assets/images/stay1.jpg" alt="River View Resort">
+                <div class="stay-info">
+                    <h3>River View Resort</h3>
+                    <p>AC rooms • Scenic view • Meals available</p>
+                    <strong>₹2,500 / night</strong>
+                </div>
+            </div>
+
+            <div class="stay-card">
+                <img src="assets/images/stay2.jpg" alt="Coconut Grove Homestay">
+                <div class="stay-info">
+                    <h3>Coconut Grove Homestay</h3>
+                    <p>Family stay • Village feel • Budget friendly</p>
+                    <strong>₹1,800 / night</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section package-section" id="plan">
+    <div class="container">
+        <div class="package-box">
+            <div>
+                <span class="mini-tag gold">Weekend Getaway Package</span>
+                <h2>2 Days 1 Night Konaseema Tour</h2>
+                <p>Temples • Food • Stay • Sightseeing</p>
+                <ul>
+                    <li>Ainavilli Temple Visit</li>
+                    <li>Draksharamam & Antarvedi</li>
+                    <li>Konaseema Food Experience</li>
+                    <li>Comfort Stay Included</li>
+                </ul>
+            </div>
+
+            <div class="package-price">
+                <span>Starting From</span>
+                <h3>₹4,999</h3>
+                <p>per person</p>
+                <a href="#contact" class="btn primary">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section contact-section" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <div>
+                <span class="mini-tag">Contact Us</span>
+                <h2>Book Your Weekend Trip Now</h2>
+                <p>Call or WhatsApp us to plan your Konaseema trip with temples, food and room stay.</p>
+            </div>
+
+            <div class="contact-actions">
+                <a class="btn primary" href="tel:6281621218">Call Now</a>
+                <a class="btn whatsapp" href="https://wa.me/916281621218" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container footer-wrap">
+        <div>
+            <h3>Explore Konaseema</h3>
+            <p>Experience the magic of nature, temples and taste together.</p>
+        </div>
+        <div>
+            <p><strong>Phone:</strong> 6281621218</p>
+            <p><strong>Location:</strong> Konaseema, Andhra Pradesh</p>
+        </div>
+    </div>
+</footer>
+
+<div class="modal" id="templeModal">
+    <div class="modal-backdrop" onclick="closeTemple()"></div>
+
+    <div class="modal-content">
+        <button class="close-btn" onclick="closeTemple()">×</button>
+        <img id="modalImage" src="" alt="Temple Image">
+        <h2 id="modalTitle">Temple Name</h2>
+        <p id="modalText">Temple history comes here...</p>
+    </div>
+</div>
+
+<script src="assets/js/app.js"></script>
 </body>
 </html>
