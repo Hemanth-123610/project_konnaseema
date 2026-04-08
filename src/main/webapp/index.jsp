@@ -109,19 +109,19 @@
                 </div>
             </div>
 
+            <div class="place-card" onclick="openTemple('antarvedi')">
+                <img src="assets/images/antarvedi.jpg" alt="Antarvedi">
+                <div class="card-body">
+                    <h3>Antarvedi Beach</h3>
+                    <p>Where Godavari meets the Bay of Bengal.</p>
+                </div>
+            </div>
+
             <div class="place-card" onclick="openTemple('appanapalli')">
                 <img src="assets/images/appanapalli.jpg" alt="Appanapalli">
                 <div class="card-body">
                     <h3>Appanapalli Bala Balaji</h3>
-                    <p>A peaceful spiritual destination in Konaseema.</p>
-                </div>
-            </div>
-
-            <div class="place-card" onclick="openTemple('antarvedi')">
-                <img src="assets/images/antarvedi.jpg" alt="Antarvedi">
-                <div class="card-body">
-                    <h3>Antarvedi</h3>
-                    <p>Where Godavari meets the Bay of Bengal.</p>
+                    <p>Blessings of Lord Venkateswara in Konaseema.</p>
                 </div>
             </div>
         </div>
@@ -138,20 +138,36 @@
             </div>
         </div>
 
-        <div class="food-grid">
-            <div class="food-card">
-                <img src="assets/images/food1.jpg" alt="Pootharekulu">
-                <div class="food-info">
-                    <h3>Pootharekulu</h3>
-                    <p>Sweet specialty loved across Andhra.</p>
+        <div class="card-grid food-card-grid">
+            <div class="place-card">
+                <img src="assets/images/food_kova_puri.jpg" alt="Kova Puri">
+                <div class="card-body">
+                    <h3>Kova Puri</h3>
+                    <p>Sweet Konaseema special loved by visitors.</p>
                 </div>
             </div>
 
-            <div class="food-card">
-                <img src="assets/images/food2.jpg" alt="Konaseema Specials">
-                <div class="food-info">
-                    <h3>Konaseema Specials</h3>
-                    <p>Kova, biryani, kaja, village-style meals and more.</p>
+            <div class="place-card">
+                <img src="assets/images/food_pootharekulu.jpg" alt="Pootharekulu">
+                <div class="card-body">
+                    <h3>Pootharekulu</h3>
+                    <p>Traditional Andhra sweet with thin layered texture.</p>
+                </div>
+            </div>
+
+            <div class="place-card">
+                <img src="assets/images/food_kaja.jpg" alt="Kaja">
+                <div class="card-body">
+                    <h3>Kaja</h3>
+                    <p>Crispy sweet that adds a festive Konaseema feel.</p>
+                </div>
+            </div>
+
+            <div class="place-card">
+                <img src="assets/images/food_biryani.jpg" alt="Konaseema Biryani">
+                <div class="card-body">
+                    <h3>Konaseema Biryani</h3>
+                    <p>Spicy and flavourful local food experience.</p>
                 </div>
             </div>
         </div>
@@ -168,22 +184,28 @@
             </div>
         </div>
 
-        <div class="stay-grid">
-            <div class="stay-card">
-                <img src="assets/images/stay1.jpg" alt="River View Resort">
-                <div class="stay-info">
+        <div class="card-grid">
+            <div class="place-card">
+                <img src="assets/images/stay_river_view.jpg" alt="River View Resort">
+                <div class="card-body">
                     <h3>River View Resort</h3>
                     <p>AC rooms • Scenic view • Meals available</p>
-                    <strong>₹2,500 / night</strong>
                 </div>
             </div>
 
-            <div class="stay-card">
-                <img src="assets/images/stay2.jpg" alt="Coconut Grove Homestay">
-                <div class="stay-info">
+            <div class="place-card">
+                <img src="assets/images/stay_coconut_grove.jpg" alt="Coconut Grove Homestay">
+                <div class="card-body">
                     <h3>Coconut Grove Homestay</h3>
                     <p>Family stay • Village feel • Budget friendly</p>
-                    <strong>₹1,800 / night</strong>
+                </div>
+            </div>
+
+            <div class="place-card">
+                <img src="assets/images/stay_sri_balaji.jpg" alt="Sri Balaji Residency">
+                <div class="card-body">
+                    <h3>Sri Balaji Residency</h3>
+                    <p>Comfort stay • Temple nearby • Budget option</p>
                 </div>
             </div>
         </div>
@@ -193,6 +215,10 @@
 <section class="section package-section" id="plan">
     <div class="container">
         <div class="package-box">
+            <div class="package-image-wrap">
+                <img src="assets/images/package.jpg" alt="Konaseema Package">
+            </div>
+
             <div>
                 <span class="mini-tag gold">Weekend Getaway Package</span>
                 <h2>2 Days 1 Night Konaseema Tour</h2>
